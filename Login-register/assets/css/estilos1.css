@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 3%;
+    padding: 0;
+}
+
+a{
+    width: 300px;
+    height: 80px;
+    margin: 5px;
+    float: left;
+    text-align: center;
+    font-size: 21px;
+	font-weight: Arial;
+    color: rgb(238, 39, 13);
+	text-decoration: none;
+	padding: 0.9em 3.8em;
+	border-radius: 5px;
+	background-color: rgba(228, 230, 229, 0.6);
+	transition: background-color 1s linear;
+}
+
+.caja1{
+    width: 300px;
+    height: 80px;
+    background-color: transparent;
+    margin: 5px;
+    float: left;
+    text-align: center; 
+}
+
+.portada{
+    padding: 10px;
+    color: #A82002;
+    text-align: left;
+    margin: 80px;
+    height: 100px;
+    font-size: 30px;
+}
+
+a:hover, input:hover
+a:focus, input:focus {
+	background-color: rgba(21, 189, 6, 0.6);
+    color: aliceblue;
+}
+
+a:focus, input:focus {
+	box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.25)
+}
+
+.contendor_completo{
+    color: red;
+}
+
+.cerrar_sesion{
+    padding: 0.1em 3.8em;
+    background-color: transparent;
+    margin: 80px;
+    color: blueviolet;    
+}

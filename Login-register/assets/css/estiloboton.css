@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 3%;
+    padding: 0;
+}
+
+.fcc-btn {
+    background-color: #119bc5;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 18px;
+  }
